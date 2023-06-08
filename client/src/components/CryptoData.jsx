@@ -8,7 +8,7 @@ const CryptoTable = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/cryptoData/fetchDataFromDB');
+        const response = await axios.get('https://quadbtech.onrender.com/cryptoData/fetchDataFromDB');
         const {data} = response
         console.log(data.response)
         setCryptoData(data.response);
