@@ -1,0 +1,21 @@
+.crypto-table {
+    width: 100%;
+  }
+  
+  .crypto-table th,
+  .crypto-table td {
+    color: azure;
+    padding: 8px;
+    text-align: center;
+
+  }
+  .crypto-table th{
+    font-size: 24px;
+  }
+  .crypto-table th {
+    font-weight: bold;
+  }
+  .crypto-table td{
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
